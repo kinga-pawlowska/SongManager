@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kingapawlowska.songmanager.activities.GigsActivity">
+
+    <item
+        android:id="@+id/menu_options_gigs_action_addagig"
+        android:icon="@drawable/menu_options_gigs_action_addagig"
+        android:title="@string/menu_options_gigs_action_addagig"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/id_menu_options_gigs_action_sort"
+        android:orderInCategory="100"
+        android:title="Sort by oldest to newest"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_menu_options_gigs_action_invert_sort"
+        android:orderInCategory="100"
+        android:title="Sort by newest to oldest"
+        app:showAsAction="never" />
+
+
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kingapawlowska.songmanager.activities.EditSetlistActivity">
+
+    <item
+        android:id="@+id/menu_options_edit_setlist_action_instert_element"
+        android:icon="@drawable/menu_options_edit_setlist_action_instert_element"
+        android:title="@string/menu_options_edit_setlist_action_instert_element"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_options_edit_setlist_action_change_filename"
+        android:icon="@drawable/menu_options_edit_setlist_action_change_filename"
+        android:title="@string/menu_options_edit_setlist_action_change_filename"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_options_edit_setlist_action_save_file"
+        android:icon="@drawable/menu_options_edit_setlist_action_save_file"
+        android:title="@string/menu_options_edit_setlist_action_save_file"
+        app:showAsAction="always|withText" />
+
+</menu>

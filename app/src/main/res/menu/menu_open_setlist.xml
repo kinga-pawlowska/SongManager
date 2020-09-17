@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kingapawlowska.songmanager.activities.OpenSetlistActivity">
+
+    <item
+        android:id="@+id/id_menu_open_setlist_action_edit_setlist"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Edit a setlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_menu_open_setlist_action_delete"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="never" />
+
+</menu>

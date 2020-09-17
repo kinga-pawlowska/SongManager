@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kingapawlowska.songmanager">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SongsActivity"
+            android:label="@string/title_activity_songs"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SetlistsActivity"
+            android:label="@string/title_activity_setlists"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.GigsActivity"
+            android:label="@string/title_activity_gigs"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ExportFilesActivity"
+            android:label="@string/title_activity_export_files"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OpenSongActivity"
+            android:label="@string/title_activity_open_song"
+            android:parentActivityName=".activities.SongsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SongsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddASongActivity"
+            android:label="@string/title_activity_add_asong"
+            android:parentActivityName=".activities.SongsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SongsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.EditSongActivity"
+            android:label="@string/title_activity_edit_song"
+            android:parentActivityName=".activities.SongsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SongsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.EditSetlistActivity"
+            android:label="@string/title_activity_edit_setlist"
+            android:parentActivityName=".activities.SetlistsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SetlistsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddASetlistActivity"
+            android:label="@string/title_activity_add_a_setlist"
+            android:parentActivityName=".activities.SetlistsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SetlistsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OpenSetlistActivity"
+            android:label="@string/title_activity_open_setlist"
+            android:parentActivityName=".activities.SetlistsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SetlistsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddAGigActivity"
+            android:label="@string/title_activity_add_a_gig"
+            android:parentActivityName=".activities.GigsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.GigsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.EditGigActivity"
+            android:label="@string/title_activity_edit_gig"
+            android:parentActivityName=".activities.GigsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.GigsActivity" />
+        </activity>
+        <activity
+            android:name=".activities.PreviewSongActivity"
+            android:label="@string/title_activity_preview_song"
+            android:parentActivityName=".activities.EditSongActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.EditSongActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ImportFilesActivity"
+            android:label="@string/title_activity_import_files"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.DuplicateSetlistActivity"
+            android:label="@string/title_activity_duplicate_setlist"
+            android:parentActivityName=".activities.SetlistsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kingapawlowska.songmanager.activities.SetlistsActivity" />
+        </activity>
+    </application>
+
+</manifest>

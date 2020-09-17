@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kingapawlowska.songmanager.activities.MainActivity">
+
+    <Button
+        android:id="@+id/main_btn_option_songs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/songs"
+        android:gravity="bottom|right"
+        android:scaleType="centerInside"
+        android:text="@string/string_main_btn_option_songs"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorMainBtnOptions"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/main_btn_option_setlists"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/setlists"
+        android:gravity="bottom|right"
+        android:scaleType="centerInside"
+        android:text="@string/string_main_btn_option_setlists"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorMainBtnOptions"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/main_btn_option_gigs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@drawable/gigs"
+        android:gravity="bottom|right"
+        android:scaleType="centerInside"
+        android:text="@string/string_main_btn_option_gigs"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorMainBtnOptions"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

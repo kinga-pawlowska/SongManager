@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.kingapawlowska.songmanager.activities.SongsActivity">
+
+    <item
+        android:id="@+id/menu_options_songs_action_search"
+        android:icon="@drawable/menu_options_songs_action_search"
+        android:title="@string/menu_options_songs_action_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/menu_options_songs_action_addasong"
+        android:icon="@drawable/menu_options_songs_action_addasong"
+        android:title="@string/menu_options_songs_addasong"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/id_menu_songs_action_sort_normally"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Sort A-Z"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/id_menu_songs_action_sort_by_reverse_order"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Sort Z-A"
+        app:showAsAction="never" />
+
+
+</menu>

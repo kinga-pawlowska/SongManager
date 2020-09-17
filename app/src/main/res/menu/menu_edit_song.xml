@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kingapawlowska.songmanager.activities.EditSongActivity">
+
+    <item
+        android:id="@+id/menu_options_edit_song_action_insert_element"
+        android:icon="@drawable/menu_options_edit_song_action_insert_element"
+        android:title="@string/menu_options_edit_song_action_insert_element"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_options_edit_song_action_instert_chord"
+        android:icon="@drawable/menu_options_edit_song_action_insert_chord"
+        android:title="@string/menu_options_edit_song_action_insert_chord"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_options_edit_song_action_preview"
+        android:icon="@drawable/menu_options_edit_song_action_preview"
+        android:title="@string/menu_options_edit_song_action_preview"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_options_edit_song_action_save_file"
+        android:icon="@drawable/menu_options_edit_song_action_save_file"
+        android:title="@string/menu_options_edit_song_action_save_file"
+        app:showAsAction="always|withText" />
+
+</menu>

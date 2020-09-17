@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kingapawlowska.songmanager.activities.EditGigActivity">
+
+    <item
+        android:id="@+id/menu_options_edit_gig_action_save_file"
+        android:icon="@drawable/menu_options_edit_gig_action_save_file"
+        android:title="@string/menu_options_edit_gig_action_save_file"
+        app:showAsAction="always|withText" />
+
+</menu>

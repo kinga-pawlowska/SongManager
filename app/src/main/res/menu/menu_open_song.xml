@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.kingapawlowska.songmanager.activities.OpenSongActivity">
+
+    <item
+        android:id="@+id/menu_options_open_song_action_decrease"
+        android:icon="@drawable/menu_options_open_song_action_decrease"
+        android:title="@string/menu_options_open_song_action_decrease"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_options_open_song_action_increase"
+        android:icon="@drawable/menu_options_open_song_action_increase"
+        android:title="@string/menu_options_open_song_action_increase"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/id_menu_open_song_action_edit_song"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Edit a song"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/id_menu_open_song_action_show_title_and_info"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="100"
+        android:title="Show / hide title and info" />
+    <item
+        android:id="@+id/id_menu_open_song_action_delete"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="never" />
+
+</menu>

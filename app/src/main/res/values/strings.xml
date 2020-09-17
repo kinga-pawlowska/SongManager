@@ -1,0 +1,76 @@
+<resources>
+    <!-- GLOBAL STRINGS -->
+    <string name="app_name">SongManager</string>
+    <string name="title_activity_songs">Songs</string>
+    <string name="title_activity_setlists">Setlists</string>
+    <string name="title_activity_gigs">Gigs</string>
+    <string name="title_activity_export_files">Export a backup to Cloud</string>
+    <string name="title_activity_import_files">Import a backup from Cloud</string>
+    <string name="title_activity_open_song">Open song</string>
+    <string name="title_activity_add_asong">Add a song</string>
+    <string name="title_activity_edit_song">Edit song</string>
+    <string name="title_activity_edit_setlist">Edit setlist</string>
+    <string name="title_activity_add_a_setlist">Add a setlist</string>
+    <string name="title_activity_open_setlist">OpenSetlistActivity</string>
+    <string name="title_activity_add_a_gig">Add a gig</string>
+    <string name="title_activity_edit_gig">Edit gig</string>
+    <string name="title_activity_preview_song">Preview</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="stringcD_main_tv_logo">Logo of application</string>
+    <string name="string_main_btn_option_songs">Songs</string>
+    <string name="string_main_btn_option_setlists">Setlists</string>
+    <string name="string_main_btn_option_gigs">Gigs</string>
+    <string name="string_main_about_application">Version: 1.0.0\n\nCopyright \u00a9 2018\nby Kinga Pawłowska\n\nAll rights reserved.</string>
+    <!-- SONGS ACTIVITY -->
+    <string name="menu_options_songs_action_search">Search</string>
+    <string name="menu_options_songs_addasong">Add a song</string>
+    <!-- OPEN SONG ACTIVITY -->
+    <string name="menu_options_open_song_action_decrease">Decrease</string>
+    <string name="menu_options_open_song_action_increase">Increase</string>
+    <!-- EDIT SONG ACTIVITY -->
+    <string name="menu_options_edit_song_action_insert_element">Insert element</string>
+    <string name="menu_options_edit_song_action_insert_chord">Insert chord</string>
+    <string name="menu_options_edit_song_action_save_file">Save file</string>
+    <string name="editSong_et_contentOfFile_hint">Enter lyrics with chords or not&#8230;</string>
+    <string name="menu_options_edit_song_action_preview">Preview</string>
+    <!-- SETLISTS ACTIVITY -->
+    <string name="menu_options_setlists_action_search">Search</string>
+    <string name="menu_options_setlists_action_addasetlist">Add a setlist</string>
+    <!-- GIGS ACTIVITY -->
+    <string name="menu_options_gigs_action_addagig">Add a gig</string>
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <!-- EDIT SETLIST ACTIVITY -->
+    <string name="menu_options_edit_setlist_action_instert_element">Insert title and artist of song</string>
+    <string name="menu_options_edit_setlist_action_save_file">Save setlist</string>
+    <string name="menu_options_edit_setlist_action_change_filename">Change filename</string>
+    <!-- ADD A SONG ACTIVITY -->
+    <string name="menu_options_add_a_song_action_save">Save file</string>
+    <!-- ADD A SETLIST ACTIVITY -->
+    <string name="menu_options_add_a_setlist_action_save">Save file</string>
+    <!-- OPEN SETLIST ACTIVITY -->
+    <!-- ADD A GIG ACTIVITY -->
+    <string name="menu_options_add_a_gig_action_save">Save file</string>
+    <!-- EDIT GIG ACTIVITY -->
+    <string name="menu_options_edit_gig_action_save_file">Save file</string>
+    <string name="title_activity_duplicate_setlist">Duplicate Setlist</string>
+    <string name="menu_options_duplicate_setlist_action_save">Save file</string>
+    <string name="menu_options_gigs_action_invert_sort">Sort Z-A</string>
+    <string name="menu_options_gigs_action_sort">Sort A-Z</string>
+    <!-- PREVIEW SONG ACTIVITY -->
+
+
+</resources>
